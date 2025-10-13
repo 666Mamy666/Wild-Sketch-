@@ -1,0 +1,301 @@
+:root {
+    --text-color: #0C0708;
+    --button-color: #FFB780;
+    --footer-color: #FFCCA6;
+    --bg-color: #FAF6F3;
+}
+
+body {
+    color: var(--text-color);
+    font-family: "Tajawal";
+    background-color: var(--bg-color);
+}
+
+.header-img {
+    width: 70.20000457763672;
+    height: 48.75;
+}
+
+.header-link {
+    color: var(--text-color);
+}
+
+.header-button {
+    font-weight: 500;
+    font-size: 16px;
+    width: 97;
+    height: 40;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border-radius: 100px;
+    border-width: 1px;
+    background-color: var(--button-color);
+}
+
+.hero-title {
+    font-family: "Caveat";
+    font-weight: 700;
+    font-size: 56px;
+
+}
+
+.hero-register {
+    width: 105;
+    height: 44;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    border-radius: 100px;
+    border-width: 1px;
+    background-color: var(--button-color);
+}
+
+.hero-more {
+    width: 105;
+    height: 44;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    border-radius: 100px;
+    border-width: 1px;
+    background-color: var(--bg-color);
+}
+
+.hero-photo {
+    width: 857px;
+    height: 659px;
+
+}
+
+.advice-photo {
+    width: 616px;
+    height: 586px;
+
+}
+
+.advice-title {
+    font-family: "Caveat";
+    font-weight: 700px;
+    font-size: 40px;
+
+}
+
+.advice-heading {
+    font-weight: 700px;
+    font-size: 24px;
+
+}
+
+.drawings-title {
+    font-family: "Caveat";
+    font-weight: 700px;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.drawings-photo {
+    width: 416px;
+    height: 416px;
+
+}
+
+.drawings-img {
+    width: 304px;
+    height: 346px;
+}
+
+.schedule-title {
+    font-family: "Caveat";
+    font-weight: 700px;
+    font-size: 48px;
+
+}
+
+.schedule-heading {
+    width: 677px;
+    height: 26px;
+
+}
+
+.schedule-info {
+    font-weight: 400px;
+    font-size: 14px;
+    width: 124;
+    height: 21;
+}
+
+.schedule-data {
+    font-weight: 400;
+    font-size: 20px;
+    width: 126;
+    height: 30;
+
+}
+
+.schedule-btn {
+    width: 97;
+    height: 40;
+    gap: 8px;
+    opacity: 1;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border-radius: 100px;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: var(--bg-color);
+
+}
+
+.reviews-title {
+    font-family: "Caveat";
+    font-weight: 700px;
+    font-size: 48px;
+    width: 1312PX;
+    height: 53PX;
+}
+
+.reviews-text {
+    font-weight: 400px;
+    font-size: 18px;
+    width: 352px;
+    height: 81px;
+}
+
+.reviews-subtext {
+    font-size: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    width: 352px;
+    height: 24px;
+}
+
+.team-title {
+    width: 768px;
+    height: 53px;
+    font-family: "Caveat";
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.team-text {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 768px;
+    height: 27px;
+}
+
+.team-photo {
+    width: 152px;
+    height: 152px;
+
+}
+
+.team-name {
+    width: 192px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.team-rank {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 192px;
+    height: 54px;
+
+
+}
+
+.register-title {
+    font-family: "Caveat";
+    font-weight: 700px;
+    font-size: 48px;
+    width: 640px;
+    height: 53px;
+}
+
+.register-name {
+    font-weight: 400;
+    font-size: 16px;
+    width: 640;
+    height: 24;
+
+
+}
+
+.register-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    width: 616px;
+    height: 24px;
+
+}
+
+.register-email {
+    width: 640px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.register-text {
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.register-btn {
+    width: 304px;
+    height: 44px;
+    gap: 8px;
+    padding-top: 10px;
+    padding-right: 24px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    border-radius: 100px;
+    border-width: 1px;
+    background-color: var(--button-color);
+    font-family: Tajawal;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+.register-photo {
+    width: 640px;
+    height: 734px;
+}
+
+.footer-img {
+    width: 70.20000457763672;
+    height: 48.75;
+}
+
+.footer-link {
+    color: var(--text-color);
+    width: 64px;
+    height: 27px;
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+.footer-text {
+    font-weight: 500px;
+    font-size: 18px;
+    width: 64px;
+    height: 27px;
+}

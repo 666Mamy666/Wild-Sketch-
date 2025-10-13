@@ -1,24 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <header>
-        <h1><img src="./img/logo.png" alt="logo"></h1>
-        <ul>
-            <li><a href="">Benefits</a></li>
-            <li><a href="">Gallery</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="">Team</a></li>
-            <li><a href="">Feedbacks</a></li>
-        </ul>
-        <button>Register</button>
+    <header class="header">
+        <a class="header-logo" href="./index.html">
+            <img class="header-img" src="./img/logo.png" alt="logo">
+        </a>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li class="header-item"><a class="header-link" href="#">Benefits</a></li>
+                <li class="header-item"><a class="header-link" href="#">Gallery</a></li>
+                <li class="header-item"><a class="header-link" href="#">Events</a></li>
+                <li class="header-item"><a class="header-link" href="#">Team</a></li>
+                <li class="header-item"><a class="header-link" href="#">Feedbacks</a></li>
+            </ul>
+        </nav>
+        <button class="header-button">Register</button>
     </header>
-    <section>
-        h2
+    <section class="hero">
+        <h1 class="hero-title">Unleash Your Creativity in Nature's Embrace</h1>
+        <p class="hero-text">Join us for an inspiring plein air drawing workshop where art meets nature. Experience the
+            joy of sketching
+            outdoors while enhancing your skills in light and composition.</p>
+        <ul class="hero-list">
+            <li class="hero-item">
+                <button class="hero-button hero-register">Register</button>
+            </li>
+            <li class="hero-item">
+                <button class="hero-button hero-more">Learn More</button>
+            </li>
+        </ul>
+        <img class="hero-photo" src="./img/home.jpg" alt="home">
     </section>
+    <section class="advice">
+        <img class="advice-photo" src="./img/hippos.png" alt="hippos">
+        <h2 class="advice-title">Reconnect with yourself through the art of outdoor drawing</h2>
+        <ul class="advice-list">
+            <li class="advice-item">
+                <h3 class="advice-heading">Relieves stress and anxiety</h3>
+                <p class="text">Drawing in nature helps you unwind, clear your mind, and escape daily worries in a
+                    peaceful setting.
+                </p>
+            </li>
+            <li class="advice-item">
+                <h3 class="advice-heading">Sparks creativity</h3>
+                <p class="text">Whether you’re a beginner or experienced, plein air drawing encourages creative thinking
+                    and helps
+                    you see beauty in the details.</p>
+            </li>
+            <li class="advice-item">
+                <h3 class="advice-heading"> Quality time in nature</h3>
+                <p class="text">Plein air sessions combine fresh air, gentle movement, and mindful observation — a
+                    perfect blend of
+                    rest and inspiration.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="drawings">
+        <h2 class="drawings-title">Artistic Showcase</h2>
+        <p class="drawings-text">Explore the creativity captured in our workshops.</p>
+        <ul class="drawings-list">
+            <li class="drawings-item">
+                <img class="drawings-photo" src="./img/mountain.png" alt="mountain">
+            </li>
+            <li class="drawings-item">
+                <img class="drawings-photo" src="./img/forest.png" alt="forest">
+            </li>
+            <li class="drawings-item">
+                <img class="drawings-photo" src="./img/three.png" alt="three">
+            </li>
+        </ul>
+        <ul class="drawings-items">
+            <li class="drawings-element">
+                <img class="drawings-img" src="./img/field.png" alt="field">
+            </li>
+            <li class="drawings-element">
+                <img class="drawings-img" src="./img/flower.png" alt="flower">
+            </li>
+            <li class="drawings-element">
+                <img class="drawings-img" src="./img/deer.png" alt="deer">
+            </li>
+            <li class="drawings-element">
+                <img class="drawings-img" src="./img/basket.png" alt="basket">
+            </li>
+        </ul>
+    </section>
+    <section class="schedule">
+        <h2 class="schedule-title">Explore Our Upcoming Workshop Schedule</h2>
+        <p class="schedule-text">Join us for immersive plein air drawing workshops. Experience nature while honing your
+            artistic skills.</p>
+        <ul class="schedule-list">
+            <li class="schedule-item">
+                <img class="schedule-photo" src="./img/women.png" alt="women">
+                <h3 class="schedule-heading">Morning Light Sketching</h3>
+                <ul class="schedule-items">
+                    <li class="schedule-element">
+                        <p class="schedule-info">Central Park Meadow</p>
+                    </li>
+                    <li class="schedule-element">
+                        <p class="schedule-data">09 Jun 8:00 am</p>
+                </li>
+                </ul>
+                <button class="schedule-btn">Register</button>
+            </li>
+            <li class="schedule-item">
+                <img class="schedule-photo" src="./img/girl.png" alt="girl">
+                <h3 class="schedule-heading">Floral Focus: Painting Wildflowers</h3>
+                <ul class="schedule-items">
+                    <li class="schedule-element">
+                        <p class="schedule-info">Riverside Botanical Trail</p>
+                        </li>
+                    <li class="schedule-element">
+                        <p class="schedule-data">10 Jun 5:00 pm</p>
+                        </li>
+                </ul>
+                <button class="schedule-btn">Register</button>
+            </li>
+            <li class="schedule-item">
+                <img class="schedule-photo" src="./img/female-artist.png" alt="woman">
+                <h3 class="schedule-heading">Color & Composition Basics</h3>
+                <ul class="schedule-items">
+                    <li class="schedule-element">
+                        <p class="schedule-info">Forest Edge Retreat</p>
+                        </li>
+                    <li class="schedule-element">
+                        <p class="schedule-data">11 Jun 7:00 pm</p>
+                        </li>
+                </ul>
+                <button class="schedule-btn">Register</button>
+            </li>
+            <li class="schedule-item">
+                <img class="schedule-photo" src="./img/mother.png" alt="mother widh doughter">
+                <h3 class="schedule-heading">Drawing Stillness: Meditative Sketching</h3>
+                <ul class="schedule-items">
+                    <li class="schedule-element">
+                        <p class="schedule-info">Willow Grove Field</p>
+                    </li>
+                    <li class="schedule-element">
+                        <p class="schedule-data">14 Jun 8:00 pm</p>
+                        </li>
+                </ul>
+                <button class="schedule-btn">Register</button>
+            </li>
+            <li class="schedule-item">
+                <img class="schedule-photo" src="./img/woman2.png" alt="woman">
+                <h3 class="schedule-heading">Golden Hour Landscape Study</h3>
+                <ul class="schedule-items">
+                    <li class="schedule-element">
+                        <p class="schedule-info">Sunset Ridge Hilltop</p>
+                    </li>
+                    <li class="schedule-element">
+                        <p class="schedule-data">15 Jun 8:00 pm</p>
+                        </li>
+                </ul>
+                <button class="schedule-btn">Register</button>
+            </li>
+        </ul>
+    </section>
+    <section class="team">
+        <h2 class="team-title">Our team</h2>
+        <p class="team-text">Meet the passionate artists guiding your plein air journey.</p>
+        <ul class="team-list">
+            <li class="team-item">
+                <img class="team-photo" src="./img/emma.png" alt="employee">
+                <h3 class="team-name">Emma Caldwell</h3>
+                <p class="team-rank">Lead Art Instructor</p>
+            </li>
+            <li class="team-item">
+                <img class="team-photo" src="./img/lina.png" alt="employee">
+                <h3 class="team-name">Lina Morales</h3>
+                <p class="team-rank">Creative Workshop Coordinator</p>
+            </li>
+            <li class="team-item">
+                <img class="team-photo" src="./img/owen.png" alt="employee">
+                <h3 class="team-name">Owen Fischer</h3>
+                <p class="team-rank">Materials & Techniques Expert</p>
+            </li>
+            <li class="team-item">
+                <img class="team-photo" src="./img/naomi.png" alt="employee">
+                <h3  class="team-name">Naomi Lee</h3>
+                <p class="team-rank">Mindfulness & Sketching Coach</p>
+            </li>
+            <li class="team-item">
+                <img class="team-photo" src="./img/jack.png" alt="employee">
+                <h3  class="team-name">Jack Turner</h3>
+                <p class="team-rank">Photographer & Visual Archivist</p>
+            </li>
+            <li class="team-item" >
+                <img class="team-photo" src="./img/ben.png" alt="employee">
+                <h3  class="team-name">Ben Novak</h3>
+                <p class="team-rank">Outdoor Logistics Manager</p>
+            </li>
+        </ul>
+    </section>
+    <section class="reviews">
+        <h2 class="reviews-title">Customer testimonials</h2>
+        <ul class="reviews-list">
+            <li class="reviews-item">
+                <p class="reviews-text">“An unforgettable way to reconnect with nature and creativity. I came home with a full sketchbook and
+                    a peaceful mind.”</p>
+                <p class="reviews-subtext">Julia Nguyen</p>
+            </li>
+            <li class="reviews-item">
+                <p class="reviews-text">“WildSketch helped me rediscover my love for drawing. The instructors were kind, encouraging, and
+                    deeply inspiring.”</p>
+                <p class="reviews-subtext">Mark Leblanc</p>
+            </li>
+            <li class="reviews-item">
+                <p class="reviews-text">“Beautiful locations, great energy, and a supportive community. I’m not a professional artist, but I
+                    felt totally welcomed.”</p>
+                <p class="reviews-subtext">Sofia Mendes</p>
+            </li>
+            <li class="reviews-item">
+                <p class="reviews-text">“Sketching outdoors in the golden hour was magical. Highly recommend for anyone looking to slow down
+                    and create.”</p>
+                <p class="reviews-subtext">Daniel Ortiz</p>
+            </li>
+            <li class="reviews-item">
+                <p class="reviews-text">“The team made everything feel effortless and joyful. I learned so much and met wonderful people
+                    along the way.”</p>
+                <p class="reviews-subtext">Anika Shah</p>
+            </li>
+            <li class="reviews-item">
+                <p class="reviews-text">“Such a wholesome and uplifting experience. WildSketch is now my go-to escape when I need a creative
+                    reset.”</p>
+                <p class="reviews-subtext">Thomas Becker</p>
+            </li>
+        </ul>
+    </section>
+    <section class="register">
+        <h2 class="register-title">Register</h2>
+        <form class="register-form">
+            <label class="register-name">Name*</label>
+            <input class="register-placeholder" type="text" placeholder="Emma">
+
+            <label class="register-email">Email*</label>
+            <input class="register-placeholder" type="email" placeholder="hello@wildsketch.com">
+
+            <label class="register-text">Describe your skills</label>
+            <textarea class="register-placeholder" placeholder="Type your skills..."></textarea>
+
+            <button class="register-btn" type="submit">Register</button>
+        </form>
+        <img class="register-photo" src="./img/easel.png" alt="easel widh woman">
+    </section>
+    <footer class="footer">
+        <a class="footer-logo" href="./index.html">
+            <img class="footer-photo" src="./img/logo.png" alt="logo">
+            <nav class="footer-nav">
+            <ul class="footer-list">
+                <li class="footer-item"><a class="footer-link" href="#">Benefits</a></li>
+                <li class="footer-item"><a class="footer-link" href="#">Gallery</a></li>
+                <li class="footer-item"><a class="footer-link" href="#">Events</a></li>
+                <li class="footer-item"><a class="footer-link" href="#">Team</a></li>
+                <li class="footer-item"><a class="footer-link" href="#">Feedbacks</a></li>
+            </ul>
+            </nav>
+            <p class="foter-text">© 2025 WildDraw. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
