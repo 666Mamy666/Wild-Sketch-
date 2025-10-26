@@ -11,9 +11,34 @@ body {
     background-color: var(--bg-color);
 }
 
+.container {
+    width: 1344px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+    outline: solid red;
+}
+
+.header {
+    padding-top: 11px;
+    padding-bottom: 128px;
+}
+
 .header-img {
-    width: 70.20000457763672;
-    height: 48.75;
+    width: 70.20000457763672px;
+    height: 48.75px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 32px;
+    padding-left: 684px;
+    padding-right: 32px;
 }
 
 .header-link {
@@ -21,10 +46,8 @@ body {
 }
 
 .header-button {
-    font-weight: 500;
+    font-weight: 500px;
     font-size: 16px;
-    width: 97;
-    height: 40;
     padding-top: 8px;
     padding-right: 20px;
     padding-bottom: 8px;
@@ -34,16 +57,43 @@ body {
     background-color: var(--button-color);
 }
 
+.hero {
+    padding-bottom: 176px;
+}
+
+.hero-container {
+    display: flex;
+    gap: 32px;
+}
+
+.hero-block {
+    margin: 0 auto;
+}
+
 .hero-title {
     font-family: "Caveat";
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 56px;
+    max-width: 423px;
+    padding-bottom: 24px;
 
 }
 
+.hero-text {
+    font-weight: 400px;
+    font-size: 18px;
+    max-width: 423px;
+    padding-bottom: 32px;
+}
+
+.hero-list {
+    display: flex;
+    gap: 16px;
+}
+
 .hero-register {
-    width: 105;
-    height: 44;
+    width: 105px;
+    height: 44px;
     padding-top: 10px;
     padding-right: 24px;
     padding-bottom: 10px;
@@ -54,8 +104,8 @@ body {
 }
 
 .hero-more {
-    width: 105;
-    height: 44;
+    width: 127px;
+    height: 44px;
     padding-top: 10px;
     padding-right: 24px;
     padding-bottom: 10px;
@@ -63,6 +113,16 @@ body {
     border-radius: 100px;
     border-width: 1px;
     background-color: var(--bg-color);
+}
+
+.advice-container {
+    display: flex;
+    gap: 80px;
+}
+
+.advice-block {
+    padding-top: 52px;
+    padding-bottom: 62px;
 }
 
 .hero-photo {
@@ -81,6 +141,7 @@ body {
     font-family: "Caveat";
     font-weight: 700px;
     font-size: 40px;
+    max-width: 450px;
 
 }
 
@@ -90,12 +151,47 @@ body {
 
 }
 
+.advice-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 40px;
+}
+
+.advice-text {
+    font-weight: 400px;
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+.drawings {
+    margin-top: 178px;
+    margin-bottom: 128px;
+}
+
 .drawings-title {
     font-family: "Caveat";
     font-weight: 700px;
     font-size: 48px;
     text-align: center;
+    margin-bottom: 24px;
 
+}
+
+.drawings-text {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.drawings-list {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.drawings-items {
+    display: flex;
+    gap: 32px;
 }
 
 .drawings-photo {
@@ -109,6 +205,11 @@ body {
     height: 346px;
 }
 
+.schedule {
+    padding-bottom: 128px;
+}
+
+
 .schedule-title {
     font-family: "Caveat";
     font-weight: 700px;
@@ -116,32 +217,55 @@ body {
 
 }
 
-.schedule-heading {
-    width: 677px;
-    height: 26px;
-
+.schedule-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
+
+.schedule-item {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    border-top: solid #DBDADA;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-width: 3px;
+}
+
+.schedule-item:nth-last-of-type(1) {
+    border-bottom: solid #DBDADA;
+}
+
+.schedule-items {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.schedule-text {
+    font-weight: 400px;
+    font-size: 18px;
+    padding-bottom: 32px;
+}
+
 
 .schedule-info {
     font-weight: 400px;
     font-size: 14px;
-    width: 124;
-    height: 21;
 }
 
 .schedule-data {
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 20px;
-    width: 126;
-    height: 30;
 
 }
 
 .schedule-btn {
-    width: 97;
-    height: 40;
+    width: 97px;
+    height: 40px;
     gap: 8px;
-    opacity: 1;
+    opacity: 1px;
     padding-top: 8px;
     padding-right: 20px;
     padding-bottom: 8px;
@@ -151,6 +275,69 @@ body {
     font-weight: 500;
     font-size: 16px;
     background-color: var(--bg-color);
+    border: solid #DBDADA;
+    border-width: 1px;
+    border-radius: 100px;
+    padding: 8px 20px;
+    width: 97px;
+    height: 40px;
+
+}
+
+.team {
+    padding-bottom: 101px;
+}
+
+.team-title {
+    font-family: "Caveat";
+    font-weight: 700px;
+    font-size: 48px;
+    text-align: center;
+    outline: solid green;
+}
+
+.team-item {
+    outline: solid yellow;
+}
+
+.team-text {
+    font-weight: 400px;
+    font-size: 18px;
+    text-align: center;
+    outline: solid blue;
+    margin-top: 24px;
+    margin-bottom: 40px;
+
+}
+
+.team-photo {
+    width: 152px;
+    height: 152px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.team-list {
+    display: flex;
+    gap: 32px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.team-name {
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 24px;
+
+}
+
+.team-rank {
+    font-weight: 400px;
+    font-size: 18px;
+    text-align: center;
 
 }
 
@@ -158,104 +345,109 @@ body {
     font-family: "Caveat";
     font-weight: 700px;
     font-size: 48px;
-    width: 1312PX;
-    height: 53PX;
+    text-align: center;
+    outline: solid yellow;
+    margin-bottom: 80px;
+
+}
+
+.reviews-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.reviews-item {
+    border: 1px solid #DBDADA;
+    border-radius: 16px;
+    padding: 32px;
+    width: 416px;
+    height: 241px;
 }
 
 .reviews-text {
     font-weight: 400px;
     font-size: 18px;
-    width: 352px;
-    height: 81px;
+    margin-bottom: 24px;
+}
+
+.reviews-text::before {
+    content: "";
+    background-image: url("./img/stars2.png");
+    display: block;
+    width: 120px;
+    height: 24px;
+    margin-bottom: 24px;
 }
 
 .reviews-subtext {
     font-size: 16px;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 150%;
-    width: 352px;
-    height: 24px;
-}
-
-.team-title {
-    width: 768px;
-    height: 53px;
-    font-family: "Caveat";
-    font-weight: 700;
-    font-size: 48px;
-    text-align: center;
 
 }
 
-.team-text {
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center;
-    width: 768px;
-    height: 27px;
-}
-
-.team-photo {
-    width: 152px;
-    height: 152px;
-
-}
-
-.team-name {
-    width: 192px;
-    height: 30px;
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-
-}
-
-.team-rank {
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center;
-    width: 192px;
-    height: 54px;
-
-
+.register {
+    margin-top: 176px;
 }
 
 .register-title {
     font-family: "Caveat";
     font-weight: 700px;
     font-size: 48px;
-    width: 640px;
-    height: 53px;
+    margin-bottom: 32px;
+}
+
+.register-container {
+    display: flex;
+    gap: 32px;
 }
 
 .register-name {
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 16px;
-    width: 640;
-    height: 24;
-
-
 }
 
 .register-placeholder {
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 16px;
-    width: 616px;
-    height: 24px;
+    display: block;
+    width: 640px;
+    height: 40px;
+    border-radius: 12px;
+    border-width: 1px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    background-color: #0C070826;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.register-comment {
+    width: 640px;
+    height: 180px;
+    padding: 12px;
+    border-radius: 12px;
+    border-width: 1px;
+    resize: none;
+    background-color: #0C070826;
+    margin-top: 8px;
+    margin-bottom: 24px;
 
 }
 
 .register-email {
     width: 640px;
     height: 24px;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 16px;
 }
 
 .register-text {
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 16px;
+    padding-top: 24px;
 
 }
 
@@ -280,22 +472,44 @@ body {
     height: 734px;
 }
 
-.footer-img {
-    width: 70.20000457763672;
-    height: 48.75;
+.footer {
+    background-color: var(--footer-color);
+    padding-top: 80px;
+    padding-bottom: 80px;
+   
+    margin-top: 112px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-photo {
+    width: 268px;
+    height: 114px;
+    margin-bottom: 32px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    padding-bottom: 32px;
 }
 
 .footer-link {
     color: var(--text-color);
-    width: 64px;
-    height: 27px;
     font-weight: 500px;
     font-size: 18px;
 }
 
 .footer-text {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 18px;
-    width: 64px;
-    height: 27px;
+    text-align: center;
+    border-top: 1px solid #0C070826;
+    width: 1312px;
+    height: 0px;
+    padding-top: 32px;
 }
