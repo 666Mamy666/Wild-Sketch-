@@ -16,7 +16,6 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
-    outline: solid red;
 }
 
 .header {
@@ -67,6 +66,7 @@ body {
 }
 
 .hero-block {
+    padding-top: 141.5px;
     margin: 0 auto;
 }
 
@@ -157,7 +157,37 @@ body {
     gap: 32px;
     padding-top: 40px;
 }
-
+.advice-item{
+    display: flex;
+    gap: 24px;
+}
+.advice-spa::before{
+    content: "";
+  background-image: url("./img/spa.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+}
+.advice-sun::before{
+    content: "";
+  background-image: url("./img/sun.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 48px;
+  height: 48px;    
+}
+.advice-leaf::before{
+    content: "";
+  background-image: url("./img/leaf.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 48px;
+  height: 48px;    
+}
 .advice-text {
     font-weight: 400px;
     font-size: 16px;
@@ -216,11 +246,21 @@ body {
     font-size: 48px;
 
 }
+.schedule-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.schedule-box div{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
 
 .schedule-list {
     display: flex;
     flex-direction: column;
-    gap: 16px;
 }
 
 .schedule-item {
@@ -237,6 +277,18 @@ body {
     border-bottom: solid #DBDADA;
 }
 
+.schedule-info:before {
+    content: "";
+    background-image: url("./img/map.png");
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    align-items: center;
+}
+
 .schedule-items {
     display: flex;
     gap: 16px;
@@ -247,12 +299,15 @@ body {
     font-weight: 400px;
     font-size: 18px;
     padding-bottom: 32px;
+    margin-left: 20px;
 }
 
 
 .schedule-info {
     font-weight: 400px;
     font-size: 14px;
+    display: inline-flex;
+    align-items: center ;
 }
 
 .schedule-data {
@@ -285,7 +340,8 @@ body {
 }
 
 .team {
-    padding-bottom: 101px;
+    padding-bottom: 37px;
+    padding-top: 37px;
 }
 
 .team-title {
@@ -293,18 +349,12 @@ body {
     font-weight: 700px;
     font-size: 48px;
     text-align: center;
-    outline: solid green;
-}
-
-.team-item {
-    outline: solid yellow;
 }
 
 .team-text {
     font-weight: 400px;
     font-size: 18px;
     text-align: center;
-    outline: solid blue;
     margin-top: 24px;
     margin-bottom: 40px;
 
@@ -340,13 +390,15 @@ body {
     text-align: center;
 
 }
-
+.reviews{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 .reviews-title {
     font-family: "Caveat";
     font-weight: 700px;
     font-size: 48px;
     text-align: center;
-    outline: solid yellow;
     margin-bottom: 80px;
 
 }
@@ -387,7 +439,8 @@ body {
 }
 
 .register {
-    margin-top: 176px;
+    padding-top: 112px;
+    padding-bottom: 112px;
 }
 
 .register-title {
@@ -476,8 +529,6 @@ body {
     background-color: var(--footer-color);
     padding-top: 80px;
     padding-bottom: 80px;
-   
-    margin-top: 112px;
 }
 
 .footer-wrapper {
