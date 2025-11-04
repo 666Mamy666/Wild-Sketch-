@@ -20,7 +20,6 @@ body {
 
 .header {
     padding-top: 11px;
-    padding-bottom: 128px;
 }
 
 .header-img {
@@ -62,6 +61,7 @@ body {
 
 .hero {
     padding-bottom: 176px;
+    padding-top: 164px;
 }
 
 .hero-container {
@@ -79,7 +79,7 @@ body {
     font-weight: 700px;
     font-size: 56px;
     max-width: 423px;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 
 }
 
@@ -87,7 +87,7 @@ body {
     font-weight: 400px;
     font-size: 18px;
     max-width: 423px;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .hero-list {
