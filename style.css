@@ -31,15 +31,17 @@ body {
     display: flex;
     align-items: center;
 }
-.header-nav{
+
+.header-nav {
     width: 100%;
 }
+
 .header-list {
     outline: solid red;
     display: flex;
     gap: 32px;
     justify-content: flex-end;
-    
+
 }
 
 .header-link {
@@ -60,7 +62,7 @@ body {
 }
 
 .hero {
-    padding-bottom: 176px;
+    padding-bottom: 64px;
     padding-top: 164px;
 }
 
@@ -119,6 +121,10 @@ body {
     background-color: var(--bg-color);
 }
 
+.advice {
+    padding-top: 112px;
+}
+
 .advice-container {
     display: flex;
     gap: 80px;
@@ -159,43 +165,48 @@ body {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    padding-top: 40px;
+    margin-top: 40px;
 }
-.advice-item{
+
+.advice-item {
     display: flex;
     gap: 24px;
 }
-.advice-spa::before{
+
+.advice-spa::before {
     content: "";
-  background-image: url("./img/spa.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 48px;
-  height: 48px;
+    background-image: url("./img/spa.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
 }
-.advice-sun::before{
+
+.advice-sun::before {
     content: "";
-  background-image: url("./img/sun.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 48px;
-  height: 48px;    
+    background-image: url("./img/sun.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
 }
-.advice-leaf::before{
+
+.advice-leaf::before {
     content: "";
-  background-image: url("./img/leaf.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 48px;
-  height: 48px;    
+    background-image: url("./img/leaf.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
 }
+
 .advice-text {
     font-weight: 400px;
     font-size: 16px;
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 .drawings {
@@ -214,13 +225,13 @@ body {
 
 .drawings-text {
     text-align: center;
-    padding-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .drawings-list {
     display: flex;
     gap: 32px;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .drawings-items {
@@ -250,13 +261,15 @@ body {
     font-size: 48px;
 
 }
-.schedule-box{
+
+.schedule-box {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 }
-.schedule-box div{
+
+.schedule-box div {
     display: flex;
     gap: 32px;
     align-items: center;
@@ -302,7 +315,7 @@ body {
 .schedule-text {
     font-weight: 400px;
     font-size: 18px;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
     margin-left: 20px;
 }
 
@@ -311,7 +324,7 @@ body {
     font-weight: 400px;
     font-size: 14px;
     display: inline-flex;
-    align-items: center ;
+    align-items: center;
 }
 
 .schedule-data {
@@ -394,10 +407,12 @@ body {
     text-align: center;
 
 }
-.reviews{
+
+.reviews {
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
 .reviews-title {
     font-family: "Caveat";
     font-weight: 700px;
@@ -550,7 +565,7 @@ body {
     display: flex;
     gap: 32px;
     justify-content: center;
-    padding-bottom: 32px;
+    margin-bottom: 32px;
 }
 
 .footer-link {
